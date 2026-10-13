@@ -11,7 +11,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: phone-ruins-apk-${{ github.ref }})
+  group: phone-ruins-apk-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
