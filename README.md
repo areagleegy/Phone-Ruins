@@ -1,5 +1,7 @@
 # Phone Ruins — v0.1.0
 
+[![Android Debug APK](https://github.com/areagleegy/Phone-Ruins/actions/workflows/android-apk.yml/badge.svg)](https://github.com/areagleegy/Phone-Ruins/actions/workflows/android-apk.yml) · [View build runs](https://github.com/areagleegy/Phone-Ruins/actions)
+
 **Turn your everyday phone routine into a retro adventure.**
 
 Phone Ruins is an experimental, privacy-first Android game inspired by classic Atari-era adventures. Explore a mysterious pixel-art world with rooms, keys, locked passages, and simple challenges.
@@ -51,7 +53,7 @@ The prototype does not request Usage Access, Notification Access, location, acti
 
 ## 🏗️ Build and download
 
-The GitHub Actions workflow runs on pushes to `main`, pull requests, and manual dispatch. After a successful run, open the **Actions** tab, select the run, and download the `Phone-Ruins-debug-apk` artifact.
+The GitHub Actions workflow runs on pushes to `main`, pull requests, and manual dispatch. Open [GitHub Actions](https://github.com/areagleegy/Phone-Ruins/actions), select a **successful** `Android Debug APK` run, and download `Phone-Ruins-debug-apk` from its Artifacts section. The artifact is a ZIP containing the APK.
 
 The artifact is a **debug APK for testing**, not a signed production release. The workflow and APK must be verified before claiming a build is available.
 
